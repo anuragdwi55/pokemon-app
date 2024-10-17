@@ -1,0 +1,42 @@
+/* Styles for the Pokemon list container */
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Styles for individual Pokemon cards */
+  .pokemon-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Styles for Pokemon images */
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Styles for the search input field */
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  /* Styles for the load more button */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  /* Hover effect to change background color of Pokemon cards */
+  .pokemon-card:hover {
+    background-color: #87CEFA; /* Light Sky Blue */
+  }
+  
